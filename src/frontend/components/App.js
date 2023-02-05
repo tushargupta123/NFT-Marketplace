@@ -18,6 +18,8 @@ import { Spinner } from 'react-bootstrap'
 
 import './App.css';
 
+//  to run the project => 1. npx hardhat node    2. npx hardhat run src/backend/scripts/deploy.js --network localhost   3. npm run start
+
 function App() {
   const [loading, setLoading] = useState(true)
   const [account, setAccount] = useState(null)
